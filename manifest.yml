@@ -1,9 +1,9 @@
 ---
 applications:
-- name: bluemixchat
+- name: jacolliechat
   memory: 256M
   instances: 1
-  host: bluemixchat
+  host: jacolliechat
   domain: mybluemix.net
   path: .
   command: npm start
