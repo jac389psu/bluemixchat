@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-    - "0.12"
-
+- '0.12'
 deploy:
-   edge: true
-   provider: cloudfoundry
-   username: jacollie
-   password:
-    secure: dWb0+U6trDIvDLWmI++Z4PFPk/v62L0glIaMRomnbyLWaHfuevYahzRHL5Au2FIWpnXKrink4Bgdayeo4lDxdayghsECgc3H3jAM+A3sDuieSI0S+7qLyK38MlXLe83vBtSIJyv2JeF0YSUTd/vONQL9tEwAGog3oVt1covLmej1I7ZHxIjdIN5gkOaInlWxBGeYGSWAgAXsmh+47KPXGaMB5zLbbTRx8rd0DgocBHXDvGcRcTpm8ZyeKmz6n5gHtdVShFu1665ftL9FZvUPojGH5UwEXgumPrOUsimSu6tcC6ekNAOoCY4H4eXQwiru+kgGLnkZ0ar/zOsBQ0NTbVO3WDYmKbqFGEu05/6RvhWYrZ3U4ioC6/z/WzZoG00IuTBT4GZ+5qF5WV/5fUWAjHryKsTTimOdIWU1XmU40QF59OaY1ZSTlrCZj9znB/Vuf4XEMZGrSzschU6O3wBCDBXR3fag1LfeRTPgnhOw2E15r9P+BqStu5qwDaBwP0MmRrkeH4wkHA89Ms2/yCXL1uNsGwpCZdLSQ4Hotct6p+Ydgxe7W0bjN5h+YNphcMlnq3kqmp9GeG916bR6XlYVFVmE6l5NPL1JOzneminAJPYCtkx/MmygCrhZEiagQQloaSjHF01HmsjcGDDTycCdu8buliHJcoNx8TbZU19H+4Y=
-   api: https://api.ng.bluemix.net
-   organization: jacollie
-   space: cooldemoProd
+  provider:
+    provider: cloudfoundry
+  api: https://api.ng.bluemix.net
+  username: jacollie
+  password:
+    secure: kJAIfhPsZk+BcDw7wdTc/lbCOG4g7u+WZ+DT0LmlBZmlDF/qxIcQ4zs6zfQqUewr/g6GlRJi//fpdr9msPCaU5zzhd2X1LGLPOdpU/8jtNGpqlJCA89ocd6r7ttwMb0iMSf5cNqeVc3rfZ6H+mTsouH/mGN7xZMUYUchS+GNfp3aDnbWmud2fTY86EdKmKUFzNuHS8qqtUsgXHk5Z/9Fy3u8X3OSvBZkptKsoCn90m3dSxLnLSagAWGuh1sky6isJQhm1mWLhpJ6EJ814zlMCdKyNmVqe6sgd2eSmEEg/f0CIktFGgSDt/6hR+4SN5KfQ6MvcX500kn8qzl2SyFxZ+y+YvUzKFeIKxSjkmjwpb7U2Mt+vUdiHnEh02NOCnQyqUaJcPlyhchf6bSDdNV2YSK4l6kMYnpB1bOTo4oyp7XKNc+xmOENked85RyJP0PpJViijt5IcS3/Zyw/vXekzvMJz+aRsjuqaLUCwIBc2penNW4Ar3aQfo3Z8RwLM/88IZfVWsOZnKQewKG9IM6vzAuq59e8d8mNsW9Yv7P9Z6vVr3t7ho4Ap83aT60l9FPz8cEacS3F9kqmi+Fp+/Sfrn8asZk+PMos/pMtICMoWRV3CyG7RTHp3Rf0IWcT9UUiDO+B+U8Suqd3qVVyETL7Lh6MovkSGHPbuUhyfsDzJ/c=
+  organization: jacollie
+  space: cooldemoProd
